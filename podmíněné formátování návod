@@ -1,0 +1,19 @@
+Ano, v Excelu tohle jde udělat pomocí podmíněného formátování s vlastní formulí.
+
+Jak na to – krok za krokem:
+Představme si, že máš data např. v rozsahu A2:E100 a chceš formátovat celý řádek (např. A2:E2, A3:E3, ...) podle toho, zda je v daném řádku ve sloupci E maximální hodnota.
+
+1. Označ celou oblast, kterou chceš formátovat (např. A2:E100).
+2. Klikni na "Podmíněné formátování" → "Nové pravidlo" → "Použít vzorec pro určení, které buňky se mají formátovat"
+3. Zadej tento vzorec:
+swift
+Zkopírovat
+Upravit
+=$E2=MAX($E$2:$E$100)
+✅ Důležité:
+
+$E2 — $E zajistí, že se kouká jen na sloupec E, ale 2 se posouvá podle řádku (pro každý řádek zvlášť).
+
+MAX($E$2:$E$100) — tohle je rozsah, kde hledáš maximální hodnotu.
+
+4. Zvol formát (např. barvu pozadí) a potvrď.
