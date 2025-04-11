@@ -1,0 +1,16 @@
+Kontingenční graf 1 (sloupcový)
+
+- součet srážek po lokalitách
+
+Kontingenční graf 2 (sloupcový)
+
+- průměr srážek po lokalitách
+
+Oba grafy budou obsahovat
+- název
+- vypnutou legendu
+- popis osy x, osy y
+
+Oba grafy budou reagovat na průřez nad datumem
+
+______________________________________________________
